@@ -1,5 +1,10 @@
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
+  components: {
+    HelloWorld
+  },
   data() {
     return {
       nomeApplicazione: "VitEsempio 0.1"
